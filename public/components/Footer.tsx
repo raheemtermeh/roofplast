@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-800 text-white py-12 text-right px-6 md:px-20">
+    <footer className="bg-green-800 text-white py-12 text-center px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
         {/* لوگو و توضیح */}
@@ -19,10 +19,7 @@ const Footer = () => {
           <p className="text-sm text-gray-100 leading-relaxed">
             با بیش از 10 سال تجربه در تولید محصولات نوین ساختمانی، ما در مسیر ارتقای زیبایی و کیفیت فضاهای بیرونی و سبز قدم برداشته‌ایم.
           </p>
-          <div className="flex items-center mt-4 gap-2">
-            <FaPhoneAlt />
-            <span className="text-sm">09124049247</span>
-          </div>
+          
         </motion.div>
 
         {/* لینک‌های مفید */}
@@ -53,6 +50,10 @@ const Footer = () => {
             <li>ضمانت محصول</li>
             <li>پرداخت درب منزل</li>
             <li>مشاوره تخصصی رایگان</li>
+            
+            
+            <span className="text-sm "> <FaPhoneAlt /> 09124049247</span>
+        
           </ul>
         </motion.div>
       </div>

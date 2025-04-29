@@ -12,6 +12,7 @@ interface ProductBoxProps {
   title: string;
   specs: string[];
   img: string | StaticImageData;
+  
 }
 
 const ProductBox: React.FC<ProductBoxProps> = ({ title, specs, img }) => (
